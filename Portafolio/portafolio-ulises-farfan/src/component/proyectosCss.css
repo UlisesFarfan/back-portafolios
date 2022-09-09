@@ -1,0 +1,105 @@
+.p-conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.game-app {
+    position: relative;
+    width: 70%;
+}
+
+.game-match {
+    position: relative;
+    width: 70%;
+}
+
+.video {
+    width: 100%;
+    height: 30rem;
+}
+
+.photo-home {
+    width: 100%;
+    height: 30rem;
+}
+
+.ga-des {
+    position: absolute;
+    width: 100%;
+    height: 30rem;
+    color: white;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.839);
+}
+
+.gm-des {
+    position: absolute;
+    width: 100%;
+    height: 30rem;
+    color: white;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.839);
+}
+
+.ga-button {
+    position: absolute;
+    right: 0;
+    z-index: 5;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.55);
+    color: white;
+}
+
+.gm-button {
+    position: absolute;
+    right: 0;
+    z-index: 5;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.55);
+    color: white;
+}
+
+.ga-button:hover{
+    background-color: rgba(173, 173, 173, 0.55);
+}
+
+@media screen and (max-width: 700px) {
+    .video {
+        width: 100%;
+        height: 10rem;
+        filter: none !important;
+    }
+
+    .game-app {
+        width: 100%;
+    }
+
+    .game-match {
+        width: 100%;
+    }
+    .ga-button {
+        height: 2rem;
+        width: 4rem;
+        border-radius: 1rem;
+    }
+    .gm-des {
+        position: relative;
+        height: auto;
+        color: black;
+        background-color: white;
+    }
+    .gm-button {
+        display: none;
+    }
+}

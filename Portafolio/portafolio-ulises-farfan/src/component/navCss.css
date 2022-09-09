@@ -1,0 +1,20 @@
+#nav-conteiner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.conteiner{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.contacto, .home, .proyecto{
+    text-decoration: none;
+}
+.proyecto{
+    margin-right: 1rem;
+}
