@@ -12,7 +12,7 @@ function App() {
     <React.Fragment >
       <Nav/>
     <Routes>
-      <Route exact path='/' element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>
       <Route path='/contacto' element={<Contacto/>}/>
       <Route path='/proyectos' element={<Proyectos/>}/>
     </Routes>
