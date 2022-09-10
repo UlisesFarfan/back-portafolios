@@ -10,12 +10,12 @@ function App() {
 
   return (
     <React.Fragment >
-      <Nav/>
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/contacto' element={<Contacto/>}/>
-      <Route path='/proyectos' element={<Proyectos/>}/>
-    </Routes>
+      <Nav />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/contacto' element={<Contacto />} />
+        <Route path='/proyectos' element={<Proyectos />} />
+      </Routes>
     </React.Fragment>
   )
 }
