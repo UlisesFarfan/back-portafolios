@@ -6,11 +6,6 @@ const Proyectos = () => {
 
   const [button, setButton] = useState(true)
   const [buttonGm, setButtonGm] = useState(true)
-  const [view, setView] = useState(visualViewport.width)
-  console.log(view)
-  useEffect(() => {
-    setView(window.visualViewport.width)
-  }, [window.visualViewport.width])
   const handleButton = () => {
     setButton(!button)
     return
