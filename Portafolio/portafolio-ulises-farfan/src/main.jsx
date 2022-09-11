@@ -6,7 +6,7 @@ import './index.css';
 import axios from 'axios';
 import dotenv from 'dotenv'
 
-axios.defaults.baseURL = import.meta.env.BASE_URL || "http://127.0.0.1:5173"
+axios.defaults.baseURL = import.meta.env.VITE_APP_API || "http://127.0.0.1:5173"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
