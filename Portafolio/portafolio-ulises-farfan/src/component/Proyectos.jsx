@@ -1,5 +1,6 @@
 import YouTube from 'react-youtube';
 import { useState, useEffect } from 'react';
+import Nav from './Nav';
 import './proyectosCss.css'
 
 const Proyectos = () => {
@@ -27,6 +28,7 @@ const Proyectos = () => {
 
   return (
     <div className='p-conteiner'>
+      <Nav />
       <div className='game-app'>
         <h1>
           Game App
