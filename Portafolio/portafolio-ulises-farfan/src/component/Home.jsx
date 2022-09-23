@@ -3,6 +3,8 @@ import Nav from './Nav';
 
 const Home = () => {
     return (
+        <>
+        <div className='contein'>
         <div className='div-home'>
                   <Nav />
             <div className='title'>
@@ -11,7 +13,16 @@ const Home = () => {
             <h3 className='fsd'>Full Stack Developer</h3>
             </div>
             </div>
+            <div className='button'>
+            <h5 className='abutton'> About Me </h5>
+            <button className='bbutton'></button>
+            </div>
         </div>
+        <div className='aboutme'>
+                <h1>HOla</h1>
+            </div>
+        </div>
+        </>
     )
 }
 export default Home;

@@ -1,8 +1,9 @@
 .div-home {
     display: flex;
     justify-content: center;
-    background: linear-gradient(220.55deg, #42a0de 0%, #c08cfb 100%);
     height: 100vh;
+    flex-wrap: wrap;
+    color: white
 }
 
 .title {
@@ -16,6 +17,17 @@
 .fsd{
     font-size: 3rem;
 }
+.button{
+    display: flex;
+    position: absolute;
+    bottom: 5rem;
+    font-size: 3rem;
+    flex-wrap: wrap;
+}
+.aboutme{
+    width: 100%;
+    margin-top: 100%;
+}
 @media screen and (max-width: 750px) {
 .title{
     font-size: 2rem;
@@ -23,5 +35,18 @@
 }
 .fsd{
     font-size: 2rem;
+}
+.button{
+    position: absolute;
+    right: none;
+    bottom: 5rem;
+    justify-content: center;
+}
+.abutton{
+    width: 100%;
+    text-align: center;
+}
+.button{
+    width: 100%;
 }
 }

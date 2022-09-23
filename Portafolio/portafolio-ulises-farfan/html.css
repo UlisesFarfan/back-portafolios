@@ -5,3 +5,6 @@ body::-webkit-scrollbar{
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
+body{
+    background: linear-gradient(220.55deg, #52b8fb 0%, #a864f6 100%);
+}

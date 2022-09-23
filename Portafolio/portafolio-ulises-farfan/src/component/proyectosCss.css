@@ -4,16 +4,19 @@
     justify-content: center;
     justify-items: center;
     flex-wrap: wrap;
+    color: white;
 }
 
 .game-app {
     position: relative;
     width: 70%;
+    margin-top: 3rem;
 }
 
 .game-match {
     position: relative;
     width: 70%;
+    margin-top: 3rem;
 }
 
 .video {
@@ -32,7 +35,7 @@
     height: 30rem;
     color: white;
     z-index: 3;
-    background-color: rgba(0, 0, 0, 0.839);
+    background-color: rgba(0, 0, 0, 0.900); 
 }
 
 .gm-des {
@@ -41,7 +44,7 @@
     height: 30rem;
     color: white;
     z-index: 3;
-    background-color: rgba(0, 0, 0, 0.839);
+    background-color: rgba(0, 0, 0, 0.900);
 }
 
 .ga-button {
@@ -74,6 +77,12 @@
     background-color: rgba(173, 173, 173, 0.55);
 }
 
+.text-gm{
+    margin: 3rem;
+}
+.textP{
+    margin-bottom: 1rem;
+}
 @media screen and (max-width: 700px) {
     .video {
         width: 100%;
@@ -96,10 +105,14 @@
     .gm-des {
         position: relative;
         height: auto;
-        color: black;
         background-color: white;
+        background-color: rgba(0, 0, 0, 0);
     }
     .gm-button {
         display: none;
     }
+    .text-gm{
+        margin: 1rem;
+    }
+    
 }
