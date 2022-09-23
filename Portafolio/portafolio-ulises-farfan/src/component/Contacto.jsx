@@ -1,10 +1,12 @@
 import './contactoCss.css'
+import Nav from './Nav';
 
-const Contacto = () => {
+function Contacto() {
     return (
         <div>
+            <Nav />
             hola2
         </div>
-    )
+    );
 }
 export default Contacto;

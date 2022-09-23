@@ -83,6 +83,10 @@
 .textP{
     margin-bottom: 1rem;
 }
+.links{
+    position: absolute;
+    bottom: 3rem;
+}
 @media screen and (max-width: 700px) {
     .video {
         width: 100%;
@@ -114,5 +118,10 @@
     .text-gm{
         margin: 1rem;
     }
-    
+    .links{
+        position: initial;
+    }
+    .textP{
+        margin-left: 1rem;
+    }
 }

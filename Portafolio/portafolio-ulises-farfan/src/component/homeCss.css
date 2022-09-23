@@ -9,7 +9,7 @@
 .title {
     display: flex;
     text-align: center;
-    align-items: center;
+    margin-top: 15%;
 }
 .ulises{
     font-size: 7rem;
@@ -28,10 +28,19 @@
     width: 100%;
     margin-top: 100%;
 }
+.homeButton{
+
+    height: 3rem;
+    width: 3rem;
+}
 @media screen and (max-width: 750px) {
 .title{
+    margin-top: 40%;
     font-size: 2rem;
     color: white;
+}
+.ulises{
+    font-size: 5rem;
 }
 .fsd{
     font-size: 2rem;
@@ -39,7 +48,7 @@
 .button{
     position: absolute;
     right: none;
-    bottom: 5rem;
+    bottom: 1rem;
     justify-content: center;
 }
 .abutton{

@@ -15,7 +15,7 @@ const Home = () => {
             </div>
             <div className='button'>
             <h5 className='abutton'> About Me </h5>
-            <button className='bbutton'></button>
+            <button className='homeButton'>Abajo</button>
             </div>
         </div>
         <div className='aboutme'>
