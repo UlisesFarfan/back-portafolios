@@ -43,7 +43,7 @@ const Proyectos = () => {
         </h3>
         <p>
           GameMatch is a mobile app developed to connect players in real time <br /><br />
-          In this project we participate 7 people using Scrum <br /> <br />
+          In this project we participate 7 people using Scrum.<br /> <br />
           On the technical side we use: React Native, Redux, Soket.io, Mercadopago, Node.js, Express, MongoDB and Sequelize. <br /><br />
         </p>
         <p className='links'>

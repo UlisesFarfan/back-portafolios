@@ -45,6 +45,7 @@
     color: white;
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.900);
+    font-size: 1.5rem;
 }
 
 .ga-button {
@@ -74,6 +75,9 @@
 }
 
 .ga-button:hover{
+    background-color: rgba(173, 173, 173, 0.55);
+}
+.gm-button:hover{
     background-color: rgba(173, 173, 173, 0.55);
 }
 
@@ -111,6 +115,7 @@
         height: auto;
         background-color: white;
         background-color: rgba(0, 0, 0, 0);
+        font-size: 1.2rem;
     }
     .gm-button {
         display: none;
