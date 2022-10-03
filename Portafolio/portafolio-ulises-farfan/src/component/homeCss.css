@@ -12,7 +12,7 @@
     margin-top: 15%;
 }
 .ulises{
-    font-size: 7rem;
+    font-size: 10rem;
 }
 .fsd{
     font-size: 3rem;
@@ -20,18 +20,44 @@
 .button{
     display: flex;
     position: absolute;
-    bottom: 2rem;
+    justify-content: center;
+    bottom: 0;
     font-size: 3rem;
     flex-wrap: wrap;
 }
-.aboutme{
-    width: 100%;
-    height: 100vh;
-}
 .homeButton{
+    height: 4rem;
+    width: 4rem;
+    background-color: rgba(10, 92, 165, 0.666);
+    border-radius: 50%;
+    font-size: 2rem;
+    align-items: center;
+    border: none;
+    margin: 5%;
+}
+.arrow{
+    margin-top: 16%;
+    color: rgba(255, 252, 252, 0.985);
+}
+.homeButton:hover{
+    background-color: rgb(10, 93, 165);;
+}
 
-    height: 3rem;
-    width: 3rem;
+
+.aboutme{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div-me{
+    width: 50%;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.title-about{
+    font-size: 3rem;
 }
 @media screen and (max-width: 750px) {
 .title{
@@ -40,7 +66,7 @@
     color: white;
 }
 .ulises{
-    font-size: 5rem;
+    font-size: 7rem;
 }
 .fsd{
     font-size: 2rem;
@@ -56,6 +82,9 @@
     text-align: center;
 }
 .button{
+    width: 100%;
+}
+.div-me{
     width: 100%;
 }
 }

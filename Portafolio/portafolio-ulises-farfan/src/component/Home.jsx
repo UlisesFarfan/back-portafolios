@@ -1,6 +1,6 @@
 import './homeCss.css'
 import Nav from './Nav';
-
+import { FaArrowDown } from "react-icons/fa";
 const Home = () => {
     return (
         <>
@@ -15,11 +15,16 @@ const Home = () => {
                     </div>
                     <div className='button'>
                         <h5 className='abutton'> About Me </h5>
-                        <button className='homeButton' onClick={ () => (window.scroll({top: 10000, behavior: 'smooth'}))}>Abajo</button>
+                        <button className='homeButton' onClick={ () => (window.scroll({top: 10000, behavior: 'smooth'}))}><FaArrowDown className='arrow'/></button>
                     </div>
                 </div>
                 <div className='aboutme'>
-                    <h1>HOla</h1>
+                    <div className='div-me'>
+                        <span className='title-about'>¿Who I am?</span>
+                    </div>
+                    <div className='div-me'>
+                        <span className='title-about'>Skills</span>
+                    </div>
                 </div>
             </div>
         </>
