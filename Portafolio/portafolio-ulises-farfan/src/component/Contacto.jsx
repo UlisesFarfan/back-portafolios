@@ -5,8 +5,6 @@ function Contacto() {
     return (
         <div>
             <Nav />
-            postgreSQL || Express.js || Node.js || HTML || CSS || MongoDB
-            hola2
             SiJavascript
             SiReact
             SiRedux
