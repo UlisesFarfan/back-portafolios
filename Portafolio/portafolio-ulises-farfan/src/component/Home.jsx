@@ -7,7 +7,8 @@ const Home = () => {
     const [ scroll, setScroll ] = useState(0)
     useEffect(()=>{
         setScroll(document.getElementById('contein').clientHeight)
-    },[document.getElementById('contein')])
+        console.log(document.getElementById('contein').clientHeight)
+    })
 
     return (
         <>
@@ -22,7 +23,7 @@ const Home = () => {
                     </div>
                     <div className='button'>
                         <h5 className='abutton'> About Me </h5>
-                        <button className='homeButton' onClick={ () => (window.scroll({top: scroll, behavior: 'smooth'}))}><FaArrowDown className='arrow'/></button>
+                        <button className='homeButton' onClick={ () => (window.scroll({top: scroll - 1000, behavior: 'smooth'}))}><FaArrowDown className='arrow'/></button>
                     </div>
                 </div>
                 <div className='aboutme'>
