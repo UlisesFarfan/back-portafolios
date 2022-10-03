@@ -1,8 +1,14 @@
 import './homeCss.css'
 import Nav from './Nav';
 import { FaArrowDown } from "react-icons/fa";
+import { useState, useEffect } from 'react';
 const Home = () => {
-    var anchoTarjeta = document.getElementById('contein')
+
+    const [ scroll, setScroll ] = useState(0)
+    useEffect(()=>{
+        setScroll(document.getElementById('contein').clientHeight)
+    },[document.getElementById('contein')])
+
     return (
         <>
             <div id='contein'>
@@ -16,7 +22,7 @@ const Home = () => {
                     </div>
                     <div className='button'>
                         <h5 className='abutton'> About Me </h5>
-                        <button className='homeButton' onClick={ () => (window.scroll({top: anchoTarjeta.clientHeight, behavior: 'smooth'}))}><FaArrowDown className='arrow'/></button>
+                        <button className='homeButton' onClick={ () => (window.scroll({top: scroll, behavior: 'smooth'}))}><FaArrowDown className='arrow'/></button>
                     </div>
                 </div>
                 <div className='aboutme'>
