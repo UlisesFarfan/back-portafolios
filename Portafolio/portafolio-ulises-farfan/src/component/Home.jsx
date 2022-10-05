@@ -23,10 +23,12 @@ const Home = () => {
                     </div>
                     <div className='button'>
                         <h5 className='abutton'> About Me </h5>
-                        <button className='homeButton' onClick={ () => (window.scroll({top: scroll - 1000, behavior: 'smooth'}))}><FaArrowDown className='arrow'/></button>
+                        <a href="#aboutme" >
+                        <button className='homeButton'><FaArrowDown className='arrow'/></button>
+                        </a>
                     </div>
                 </div>
-                <div className='aboutme'>
+                <div id='aboutme'>
                     <div className='div-me'>
                         <span className='title-about'>¿Who I am?</span>
                         <p></p>
