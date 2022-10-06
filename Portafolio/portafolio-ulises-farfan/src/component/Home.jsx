@@ -1,20 +1,12 @@
-import './homeCss.css'
-import Nav from './Nav';
+import './homeCss.css';
+import { Link } from "react-router-dom"
 import { FaArrowDown } from "react-icons/fa";
-import { useState, useEffect } from 'react';
 const Home = () => {
-
-    const [ scroll, setScroll ] = useState(0)
-    useEffect(()=>{
-        setScroll(document.getElementById('contein').clientHeight)
-        console.log(document.getElementById('contein').clientHeight)
-    })
 
     return (
         <>
             <div id='contein'>
                 <div className='div-home'>
-                    <Nav />
                     <div className='title'>
                         <div>
                             <h1 className='ulises'>Ulises Farfan</h1>
@@ -22,9 +14,8 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='button'>
-                        <h5 className='abutton'> About Me </h5>
-                        <a href="#aboutme" >
-                        <button className='homeButton'><FaArrowDown className='arrow'/></button>
+                        <a href="#aboutme" className='abutton'>
+                            <button className='homeButton'><FaArrowDown className='arrow' /></button>
                         </a>
                     </div>
                 </div>
@@ -35,6 +26,14 @@ const Home = () => {
                     </div>
                     <div className='div-me'>
                         <span className='title-about'>Skills</span>
+                    </div>
+                    <div className='aboutEnd'>
+                        <Link to="/proyectos">
+                            <button className='buttonEnd'>
+                                Proyects
+                            </button>
+                        </Link>
+                        <button className='buttonEnd'>Contact me</button>
                     </div>
                 </div>
             </div>

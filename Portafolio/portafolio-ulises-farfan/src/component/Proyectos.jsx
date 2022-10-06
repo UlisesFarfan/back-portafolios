@@ -1,6 +1,7 @@
 import YouTube from 'react-youtube';
 import { useState, useEffect } from 'react';
-import Nav from './Nav';
+import { Link } from 'react-router-dom';
+import { FaArrowLeft } from "react-icons/fa";
 import './proyectosCss.css'
 
 const Proyectos = () => {
@@ -26,9 +27,19 @@ const Proyectos = () => {
     event.target.pauseVideo();
   }
 
+  const scrollTop = (section) => {
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+    });   
+}
+scrollTop()
   return (
     <div className='p-conteiner'>
-      <Nav />
+      <Link to="/">
+        <button className='homeButton buttonProyect'><FaArrowLeft className='arrow'/></button>
+      </Link>
+      <h1 className='p-title'>Protects</h1>
       <div className='game-match'>
         <h1 className='textP'>
           Game Match

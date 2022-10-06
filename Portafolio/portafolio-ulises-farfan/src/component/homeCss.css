@@ -12,18 +12,15 @@
     margin-top: 15%;
 }
 .ulises{
-    font-size: 10rem;
+    font-size: 12rem;
 }
 .fsd{
-    font-size: 3rem;
+    font-size: 5rem;
 }
-.button{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    bottom: 0;
-    font-size: 3rem;
-    flex-wrap: wrap;
+.abutton{
+width: 100%;
+display: flex;
+justify-content: center;
 }
 .homeButton{
     height: 4rem;
@@ -33,7 +30,6 @@
     font-size: 2rem;
     align-items: center;
     border: none;
-    margin: 5%;
 }
 .arrow{
     margin-top: 16%;
@@ -49,6 +45,7 @@
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .div-me{
     width: 50%;
@@ -58,6 +55,14 @@
 }
 .title-about{
     font-size: 3rem;
+}
+.aboutEnd{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.buttonEnd{
+    height: 3rem;
 }
 @media screen and (max-width: 750px) {
 .title{
@@ -77,14 +82,10 @@
     bottom: 1rem;
     justify-content: center;
 }
-.abutton{
-    width: 100%;
-    text-align: center;
-}
-.button{
-    width: 100%;
-}
 .div-me{
     width: 100%;
 }
+}
+@media screen and (max-height: 500px){
+
 }
