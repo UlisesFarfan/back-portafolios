@@ -2,11 +2,11 @@ const { Schema, model } = require("mongoose");
 
 const schema = new Schema(
 {
-	from: {
+	name: {
 		type: String,
 		require: true
 	},
-	asunto: {
+	gmail: {
 		type: String,
 		require: true
 	},
