@@ -44,7 +44,7 @@ router.delete("/:id", async (req, res) => {
 
 router.get("/download", async (req, res) => {
     try{
-        res.download("./src/ULISES_FARFAN_FRONTEND_DEVELOPER.pdf")
+        res.download("./src/ULISES_FARFAN_FULL_STACK_DEVELOPER.pdf")
     }
     catch{
         res.status(400).json("algo salio mal")
